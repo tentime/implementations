@@ -1,0 +1,2 @@
+# No extra deps — pure PyTorch
+# torch>=2.0.0

@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Pytest
+.pytest_cache/
+*.pytest_cache
+
+# Generated artifacts (produced by running the code)
+*.pt
+*.pth
+results.json
+scaling_laws.png
+word_vectors.png
+attention_heatmap.png
+
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
