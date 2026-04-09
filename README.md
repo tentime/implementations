@@ -1,8 +1,8 @@
 # ML Implementations
 
-A temporal museum of machine learning — one self-contained implementation per major milestone, from n-gram language models to modern efficiency techniques. Companion code for the [History of Language Models](../articles) article series.
+A temporal museum of machine learning — one self-contained implementation per major milestone, from n-gram language models to modern efficiency techniques.
 
-Each folder is a complete, standalone artifact. You can delete every other folder and the remaining one still runs.
+Each folder is a complete, standalone artifact.
 
 ## The Implementations
 
@@ -40,16 +40,6 @@ pytest 09-scaling-laws/test_scaling.py -v --run-slow
 ```
 
 Tests are deterministic (fixed seeds), fast (< 30s per folder), and behavioral — they check that the implementation does the right thing, not just that it runs.
-
-## How to Navigate
-
-Two paths through the material:
-
-**Article-first:** Read the companion article, understand the concept, then run the code to see it alive.
-
-**Code-first:** `cd` into a folder, run `python demo.py` or `python train.py`, encounter something surprising, read the article for context.
-
-Both work. Neither requires reading the folders in order.
 
 ## Design Decisions
 
